@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: url("93724d64-9954-4247-b2f9-0b53b095be86.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Croissant One', cursive;
+}
+.main{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(230, 170, 105, 0.552);
+    -webkit-backdrop-filter: blur(6.6px);
+    backdrop-filter: blur(6.6px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(240, 157, 157);
+    border-radius: 30px;
+    overflow: hidden;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+/***********START NAV***********/
+nav{
+    color: rgb(245, 232, 208);
+    margin-top: 20px;
+}
+nav h2{
+    font-size: 25px;
+    font-family: 'Sofia', cursive;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(245, 232, 208);
+
+}
+nav ul li:hover,
+nav ul li.active{
+    background-color: rgba(237, 202, 167, 0.485);
+    border-radius: 10px;
+    padding: 6px 10px;
+}
+/***********START SECTION***********/
+section{
+    margin-top: 50px;
+}
+section .left{
+    margin-right: 50px;
+}
+section .left h1{
+    font-size: 45px;
+    color: rgb(245, 232, 208);
+    line-height: 130%;
+}
+section .left p{
+    color: rgba(245, 232, 208, 0.778);
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+section .left .btn{
+    background-color: white;
+    color: rgb(216, 64, 64);
+    border-radius: 20px;
+}
+section .right{
+    position: relative;
+}
+section .right img{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+}
+section .right .image1{
+    bottom: 10px;
+    left: 40px;
+    width: 170px;
+    height: 170px;
+}
+section .right .image2{
+    bottom: -240px;
+    left: -60px;
+}
+section .right .image3{
+    top: -150px;
+    left: 150px;
+}
+
+
